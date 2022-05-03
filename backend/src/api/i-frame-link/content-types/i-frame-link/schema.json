@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "i_frame_links",
+  "info": {
+    "singularName": "i-frame-link",
+    "pluralName": "i-frame-links",
+    "displayName": "IFrameLink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "height": {
+      "type": "integer",
+      "required": true,
+      "unique": false
+    }
+  }
+}

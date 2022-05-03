@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_populate_lynx_visa_karta_eller_projektstatuses",
+  "info": {
+    "displayName": "LynxVisaKartaEllerProjektstatus",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "VisaKarta": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "VisaProjektstatus": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

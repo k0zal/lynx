@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "lynxes",
+  "info": {
+    "singularName": "lynx",
+    "pluralName": "lynxes",
+    "displayName": "Lynx",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "VisaKartaEllerProjektstatus": {
+      "type": "component",
+      "repeatable": false,
+      "component": "populate.lynx-visa-karta-eller-projektstatus"
+    },
+    "HeaderVideoTop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AndraVideon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BredBodyVideo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
